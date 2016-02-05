@@ -15,6 +15,7 @@
             %span.icon-bar
             %span.icon-bar
           .navbar-brand= link_to "Photogram", root_path
+
         .collapse.navbar-collapse#bs-navbar-collapse-1
           %ul.nav.navbar-nav.navbar-right
             %li
@@ -23,5 +24,9 @@
               = link_to "Login", '#'
             %li
               = link_to "Register", '#'
+
+    .container
+    -flash.each do |name, msg|
+      = content_tag :div, msg, class: [:alert, alert_for(name)]
 
     = yield
