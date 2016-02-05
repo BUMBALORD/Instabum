@@ -1,28 +1,7 @@
-== README
+A Rails recreation of Instagram, built mostly as a chance to implement the Devise gem at the inception of an app and to use the paperclip gem.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The views are written primarily in Haml, as I wanted to get a chance to learn the syntax.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Still in progress, but if you wish to use the app simply clone and run "bundle install"
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
