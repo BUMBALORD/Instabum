@@ -1,5 +1,7 @@
 A Rails recreation of Instagram, built mostly as a chance to implement the Devise gem at the inception of an app and to use the paperclip gem.
 
+My last job used the Devise gem to authenticate, but since I came on after the initial setup of the app, I never had to opportunity to set it up and see the process.
+
 The views are written primarily in Haml, as I wanted to get a chance to learn the syntax.
 
 Still in progress, but if you wish to use the app simply clone and run "bundle install"

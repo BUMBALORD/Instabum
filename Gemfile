@@ -19,6 +19,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'html2haml'
 gem 'better_errors'
+gem 'kaminari', '~> 0.16.3'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
