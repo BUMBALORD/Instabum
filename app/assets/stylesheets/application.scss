@@ -17,7 +17,8 @@
 
 body {
   height: 100%;
-  background-color: #fafafa;
+  background-image: url(back.png);
+  background-repeat: repeat-x repeat-y;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
@@ -28,6 +29,22 @@ html {
 a {
   font-family: 'Oswald', sans-serif;
   font-size: 1.3em;
+  color: rgba(0,0,0,0.2);
+  font-weight: 700;
+  text-shadow: none;
+}
+
+a::before {
+  color: #fff;
+  content: attr(data-hover);
+  position: absolute;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+a:hover::before,
+a:focus::before {
+  transform: scale(0.9);
+  opacity: 0;
 }
 
 .navbar {
@@ -224,3 +241,5 @@ a {
 img {
   padding: 1em;
 }
+
+
