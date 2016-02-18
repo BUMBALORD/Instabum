@@ -25,6 +25,11 @@ html {
   height: 100%;
 }
 
+a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+}
+
 .navbar {
   margin-bottom: 0px;
 }
@@ -97,6 +102,7 @@ html {
   border-radius: 3px;
   border-width: 1px;
   margin-bottom: 60px;
+  padding: 1em;
   .post-head {
     flex-direction: row;
     height: 64px;
@@ -165,6 +171,7 @@ html {
   border: medium none;
   width: 100%;
   color: #4B4F54;
+  padding: 1em;
 }
 
 .comment-like-form {
@@ -212,4 +219,8 @@ html {
 #post_image {
   padding: 1em;
   margin: 0px auto;
+}
+
+img {
+  padding: 1em;
 }
